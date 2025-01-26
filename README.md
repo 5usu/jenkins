@@ -1,4 +1,4 @@
-## What I'm Trying to Do 🎯
+## What I'm Trying to Do
 
 I've got three datasets full of Jenkins Q&A pairs that I want to use to make GPT-2 better at handling Jenkins-specific questions. Think of it like teaching GPT-2 to be a Jenkins expert! The data comes from:
 - Community questions and answers
@@ -18,7 +18,7 @@ I've got three datasets full of Jenkins Q&A pairs that I want to use to make GPT
    modal volume put datasets-volume your_csv_files/ /data/
    ```
 
-## How My Code Works 🛠️
+## How My Code Works
 
 The main script (`modalfine.py`) does a few key things:
 
@@ -46,7 +46,7 @@ question_col = 'Question' if 'Question' in examples else 'question'
 answer_col = 'Answer' if 'Answer' in examples else 'answer'
 ```
 
-## Running the Project 🏃‍♀️
+## Running the Project
 
 It's actually pretty simple to run:
 ```bash
@@ -74,7 +74,7 @@ Here are some common issues I ran into and how to fix them:
    - Try reducing the batch size
    - Or increase the gradient accumulation steps
 
-## What I Learned 📚
+## What I Learned
 
 Building this project taught me a lot about:
 - Working with Modal for ML tasks
@@ -82,7 +82,7 @@ Building this project taught me a lot about:
 - Fine-tuning language models
 - The importance of good data preprocessing
 
-## Future Improvements 🚀
+## Future Improvements
 
 Things I might add later:
 - [ ] Add validation dataset
